@@ -1,0 +1,7 @@
+services:
+  - type: static
+    name: diamond-topup-site
+    env: static
+    plan: free
+    buildCommand: ""
+    staticPublishPath: "/" 
